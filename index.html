@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang=jp>
+    <head>
+        <meta charset='UTF-8'>
+        <title>leap</title>
+        <link rel='icon' href='https://raw.githubusercontent.com/haha794uguisu/leap/refs/heads/main/img/haha_logo.png'>
+        <link rel='stylesheet' href='style.css'>
+        <script type='text/javascript' src='script.js' defer></script>
+    </head>
+    <body>
+        <p id="question_meaning"></p>
+        <p id="question_word"></p>
+        <p class="you">あなたの回答</p>
+        <p id="your_answer">　</p>
+        <div>
+            <input type="text" id="input_answer" placeholder= 回答を入力>
+            <br>
+            <input type="button" id="submit" onclick="answer()" value="答えを提出">
+        </div>
+        <div>
+            <input type="button" id="show" onclick="showAnswer()" value="答えを表示">
+            <input type="button" id="next" onclick="next()" value="次の問題へ">
+        </div>
+    </body>
+</html>
